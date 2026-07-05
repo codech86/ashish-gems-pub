@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "sku": "AG1001",
+    "name": "Silver Ganesh Idol",
+    "category": "Idols",
+    "purity": "999",
+    "weight": 100,
+    "featured": true,
+    "availability": "In Stock",
+    "image": ["images/products/ganesh.jpg"]
+  },
+  {
+    "id": 2,
+    "sku": "AG1002",
+    "name": "Silver Lakshmi Idol",
+    "category": "Idols",
+    "purity": "999",
+    "weight": 75,
+    "featured": false,
+    "availability": "In Stock",
+    "image": ["images/products/lakshmi.jpg"]
+  },
+  {
+    "id": 3,
+    "sku": "AG1003",
+    "name": "999 Silver Coin",
+    "category": "Coins",
+    "purity": "999",
+    "weight": 20,
+    "featured": true,
+    "availability": "In Stock",
+    "image": ["images/products/coin20.jpg"]
+  },
+  {
+    "id": 4,
+    "sku": "AG1004",
+    "name": "Silver Bowl",
+    "category": "Utensils",
+    "purity": "925",
+    "weight": 150,
+    "featured": false,
+    "availability": "In Stock",
+    "image": ["images/products/bowl.jpg"]
+  },
+  {
+    "id": 5,
+    "sku": "AG1005",
+    "name": "Silver Pooja Thali",
+    "category": "Pooja",
+    "purity": "925",
+    "weight": 250,
+    "featured": true,
+    "availability": "In Stock",
+    "image": ["images/products/thali.jpg"]
+  },
+  {
+    "id": 6,
+    "sku": "AG1006",
+    "name": "Silver Glass",
+    "category": "Utensils",
+    "purity": "925",
+    "weight": 180,
+    "featured": false,
+    "availability": "In Stock",
+    "image": ["images/products/glass.jpg"]
+  },
+  {
+    "id": 7,
+    "sku": "AG1007",
+    "name": "Silver Peacock",
+    "category": "Gift Articles",
+    "purity": "999",
+    "weight": 120,
+    "featured": true,
+    "availability": "In Stock",
+    "image": ["images/products/peacock.jpg"]
+  },
+  {
+    "id": 8,
+    "sku": "AG1008",
+    "name": "Silver Diya",
+    "category": "Pooja",
+    "purity": "925",
+    "weight": 40,
+    "featured": false,
+    "availability": "In Stock",
+    "image": ["images/products/diya.jpg"]
+  },
+  {
+    "id": 9,
+    "sku": "AG1009",
+    "name": "Silver Krishna Idol",
+    "category": "Idols",
+    "purity": "999",
+    "weight": 140,
+    "featured": true,
+    "availability": "In Stock",
+    "image": ["images/products/krishna.jpg"]
+  },
+  {
+    "id": 10,
+    "sku": "AG1010",
+    "name": "Silver Gift Box",
+    "category": "Gift Articles",
+    "purity": "925",
+    "weight": 90,
+    "featured": false,
+    "availability": "In Stock",
+    "image": ["images/products/giftbox.jpg"]
+  },
+  {
+    "id": 11,
+    "sku": "AG1011",
+    "name": "Silver Hanuman Idol",
+    "category": "Idols",
+    "purity": "999",
+    "weight": 85,
+    "featured": false,
+    "availability": "In Stock",
+    "image": ["images/products/hanuman.jpg"]
+  },
+  {
+    "id": 12,
+    "sku": "AG1012",
+    "name": "Silver Coin Gift Pack",
+    "category": "Coins",
+    "purity": "999",
+    "weight": 50,
+    "featured": true,
+    "availability": "In Stock",
+    "image": ["images/products/coin-pack.jpg"]
+  }
+]

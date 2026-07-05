@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Products | Ashish Gems</title>
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap"
+rel="stylesheet">
+
+<link rel="stylesheet"
+href="assets/css/variables.css">
+
+<link rel="stylesheet"
+href="assets/css/style.css">
+
+<link rel="stylesheet"
+href="assets/css/responsive.css">
+
+<link rel="stylesheet"
+href="assets/css/animations.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+<nav class="navbar container">
+
+    <a href="index.html" class="logo">
+
+        Ashish<span>Gems</span>
+
+    </a>
+
+    <button class="mobile-menu-btn"
+            aria-label="Toggle Menu">
+
+        ☰
+
+    </button>
+
+    <ul class="nav-menu">
+
+        <li>
+
+            <a href="index.html">
+
+                Home
+
+            </a>
+
+        </li>
+
+        <li>
+
+            <a href="products.html">
+
+                Products
+
+            </a>
+
+        </li>
+
+        <li>
+
+            <a href="index.html#collections">
+
+                Categories
+
+            </a>
+
+        </li>
+
+        <li>
+
+            <a href="index.html#about">
+
+                About
+
+            </a>
+
+        </li>
+
+        <li>
+
+            <a href="index.html#contact">
+
+                Contact
+
+            </a>
+
+        </li>
+
+    </ul>
+
+</nav>
+
+</header>
+
+<section class="page-header">
+
+<div class="container">
+
+<h1>
+
+Our Collection
+
+</h1>
+
+<p>
+
+Discover premium handcrafted silver products.
+
+</p>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="container">
+
+<div class="catalog-toolbar">
+
+<div class="search-box">
+
+<input
+type="search"
+id="searchInput"
+placeholder="Search silver products...">
+
+</div>
+
+<div class="toolbar-right">
+
+<select id="categoryFilter">
+
+<option value="all">
+
+All Categories
+
+</option>
+
+</select>
+
+<select id="sortSelect">
+
+<option value="default">
+
+Newest
+
+</option>
+
+<option value="featured">
+
+Featured First
+
+</option>
+
+<option value="name">
+
+Name A-Z
+
+</option>
+
+<option value="weight">
+
+Weight Low → High
+
+</option>
+
+<option value="weight-desc">
+
+Weight High → Low
+
+</option>
+
+</select>
+
+</div>
+
+</div>
+
+<div class="product-summary">
+
+<span id="productCount">
+
+0 Products
+
+</span>
+
+</div>
+
+<div
+id="productGrid"
+class="product-grid">
+
+</div>
+
+<div class="load-more-wrapper">
+
+<button
+id="loadMoreBtn"
+class="btn btn-primary">
+
+Load More Products
+
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<script
+type="module"
+src="assets/js/products.js">
+
+</script>
+<div id="productModal" class="modal">
+
+    <div class="modal-content">
+
+        <button
+            id="closeModal"
+            class="modal-close"
+            aria-label="Close">
+
+            ×
+
+        </button>
+
+        <div id="modalBody">
+            
+        </div>
+
+    </div>
+
+</div>
+</body>
+
+</html>

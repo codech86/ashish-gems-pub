@@ -1,0 +1,43 @@
+/* ==========================================
+   Ashish Gems v0.1
+   CSS Variables
+========================================== */
+
+:root{
+
+    /* Brand Colors */
+
+    --primary:#b08d57;
+    --secondary:#c0c0c0;
+
+    --dark:#1f1f1f;
+
+    --text:#444;
+
+    --light:#fafafa;
+
+    --white:#ffffff;
+
+    --border:#e6e6e6;
+
+    --success:#28a745;
+
+    /* Fonts */
+
+    --heading:'Cormorant Garamond',serif;
+
+    --body:'Poppins',sans-serif;
+
+    /* Layout */
+
+    --container:1280px;
+
+    --radius:16px;
+
+    --shadow:
+
+    0 10px 30px rgba(0,0,0,.08);
+
+    --transition:.35s ease;
+
+}

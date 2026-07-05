@@ -1,0 +1,228 @@
+/* ==========================================
+   Ashish Gems v0.1
+   Responsive CSS
+========================================== */
+
+/* Large Desktop */
+
+@media (max-width:1200px){
+
+.hero h1{
+
+font-size:64px;
+
+}
+
+.collection-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.features-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.about-grid{
+
+gap:40px;
+
+}
+
+}
+
+/* Tablet */
+
+@media (max-width:992px){
+
+.section{
+
+padding:80px 0;
+
+}
+
+.hero{
+
+text-align:center;
+
+}
+
+.hero-content{
+
+margin:auto;
+
+}
+
+.hero-buttons{
+
+justify-content:center;
+
+}
+
+.hero h1{
+
+font-size:52px;
+
+}
+
+.about-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.review-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+/* Mobile */
+
+@media (max-width:768px){
+
+.mobile-menu-btn{
+
+display:block;
+
+z-index:1001;
+
+}
+
+.nav-menu{
+
+position:fixed;
+
+top:80px;
+
+right:-100%;
+
+width:280px;
+
+height:calc(100vh - 80px);
+
+background:white;
+
+display:flex;
+
+flex-direction:column;
+
+padding:40px;
+
+gap:25px;
+
+transition:.4s;
+
+box-shadow:-5px 0 20px rgba(0,0,0,.08);
+
+}
+
+.nav-menu.active{
+
+right:0;
+
+}
+
+.collection-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.features-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.hero{
+
+padding:120px 0 80px;
+
+height:auto;
+
+}
+
+.hero h1{
+
+font-size:42px;
+
+}
+
+.section-title h2{
+
+font-size:42px;
+
+}
+
+.contact-box{
+
+padding:35px;
+
+}
+
+#whatsappButton{
+
+left:15px;
+
+bottom:15px;
+
+}
+
+#backToTop{
+
+right:15px;
+
+bottom:15px;
+
+}
+
+}
+
+/* Small Mobile */
+
+@media (max-width:480px){
+
+.hero h1{
+
+font-size:34px;
+
+}
+
+.hero-description{
+
+font-size:16px;
+
+}
+
+.btn{
+
+display:block;
+
+text-align:center;
+
+}
+
+.hero-buttons{
+
+flex-direction:column;
+
+}
+
+.logo{
+
+font-size:28px;
+
+}
+
+.section-title h2{
+
+font-size:34px;
+
+}
+
+}

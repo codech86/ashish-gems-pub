@@ -1,36 +1,601 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Your website description">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
-    <meta name="author" content="Your Name">
 
-    <title>My Website</title>
+    <title>Ashish Gems | Pure Silver • Timeless Elegance</title>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+    <meta name="description"
+        content="Ashish Gems offers premium silver idols, silver coins, pooja articles, gift items and customized silver products.">
 
-    <!-- Favicon -->
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta name="keywords"
+        content="Silver, Silver Coins, Silver Idols, Silver Utensils, Ashish Gems">
+
+    <meta name="author" content="Ashish Gems">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/variables.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="assets/css/animations.css">
+
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="icon" href="images/logo/favicon.ico">
+
 </head>
+
 <body>
 
-    <header>
-        <h1>Welcome to My Website</h1>
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <nav class="navbar container">
+
+    <a href="index.html" class="logo">
+
+        Ashish<span>Gems</span>
+
+    </a>
+
+    <button class="mobile-menu-btn"
+            aria-label="Toggle Menu">
+
+        ☰
+
+    </button>
+
+    <ul class="nav-menu">
+
+        <li>
+
+            <a href="index.html">
+
+                Home
+
+            </a>
+
+        </li>
+
+        <li>
+
+            <a href="products.html">
+
+                Products
+
+            </a>
+
+        </li>
+
+        <li>
+
+            <a href="index.html#collections">
+
+                Categories
+
+            </a>
+
+        </li>
+
+        <li>
+
+            <a href="index.html#about">
+
+                About
+
+            </a>
+
+        </li>
+
+        <li>
+
+            <a href="index.html#contact">
+
+                Contact
+
+            </a>
+
+        </li>
+
+    </ul>
+
+</nav>
+
     </header>
 
-    <main>
-        <p>This is the default HTML5 template.</p>
-    </main>
+    <!-- ================= HERO ================= -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-content">
+
+            <p class="hero-subtitle">
+
+                Premium Silver Collection
+
+            </p>
+
+            <h1>
+
+                Pure Silver
+
+                <br>
+
+                Crafted For Generations
+
+            </h1>
+
+            <p class="hero-description">
+
+                Discover beautifully crafted silver idols,
+                coins, gift articles and pooja collections made
+                with purity, trust and timeless elegance.
+
+            </p>
+
+           <div class="hero-buttons">
+
+    <a
+        href="products.html"
+        class="btn btn-primary">
+
+        Explore Collection
+
+    </a>
+
+    <a
+        href="#collections"
+        class="btn btn-outline">
+
+        Browse Categories
+
+    </a>
+
+</div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= COLLECTIONS ================= -->
+
+    <section id="collections" class="section">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>Our Collections</h2>
+
+                <p>
+
+                    Beautifully handcrafted silver articles
+                    for every occasion.
+
+                </p>
+
+            </div>
+
+            <div class="collection-grid">
+
+                <article class="collection-card">
+                    <a href="products.html?category=Coins"   class="collection-card">
+
+                    <img src="images/collections/coins.png"
+                        alt="Silver Coins" loading="lazy"
+onerror="this.src='images/placeholders/product-placeholder.svg'">
+
+                    <h3>Silver Coins</h3>
+                        </a>
+                </article>
+
+                <article class="collection-card">
+                    <a href="products.html?category=Idols"   class="collection-card">
+                    <img src="images/collections/idols.jpg"
+                        alt="Silver Idols" loading="lazy"
+onerror="this.src='images/placeholders/product-placeholder.svg'">
+
+                    <h3>Silver Idols</h3>
+</a>
+                </article>
+
+                <article class="collection-card">
+                    <a href="products.html?category=Gift Articles"   class="collection-card">
+                    <img src="images/collections/gifts.jpg"
+                        alt="Gift Articles" loading="lazy"
+onerror="this.src='images/placeholders/product-placeholder.svg'">
+
+                    <h3>Gift Articles</h3>
+</a>
+                </article>
+
+                <article class="collection-card">
+<a href="products.html?category=Pooja"   class="collection-card">
+                    <img src="images/collections/pooja.jpg"
+                        alt="Pooja Collection" loading="lazy"
+onerror="this.src='images/placeholders/product-placeholder.svg'">
+
+                    <h3>Pooja Collection</h3>
+</a>
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+<section
+class="section featured-products">
+
+<div class="container">
+
+<div class="section-title">
+
+<h2>
+
+Featured Products
+
+</h2>
+
+<p>
+
+Handpicked premium silver products.
+
+</p>
+
+</div>
+
+<div
+id="featuredProducts"
+
+class="product-grid">
+
+</div>
+
+<div
+class="text-center">
+
+<a
+href="products.html"
+
+class="btn btn-primary">
+
+View All Products
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="section light-section">
+
+        <div class="container about-grid">
+
+            <div>
+
+                <h2>
+
+                    Our Story
+
+                </h2>
+
+                <p>
+
+                    Ashish Gems is committed to offering
+                    premium quality silver products with
+                    excellent craftsmanship and trusted purity.
+
+                </p>
+
+                <p>
+
+                    Whether you are looking for silver idols,
+                    coins, gifts or pooja articles,
+                    every product is selected with care
+                    to celebrate tradition and elegance.
+
+                </p>
+
+            </div>
+
+            <div>
+
+                <img src="images/about/store.jpg"
+                    alt="Ashish Gems Store" loading="lazy"
+onerror="this.src='images/placeholders/product-placeholder.svg'">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= WHY CHOOSE ================= -->
+
+    <section class="section">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>
+
+                    Why Choose Ashish Gems
+
+                </h2>
+
+            </div>
+
+            <div class="features-grid">
+
+                <div class="feature-card">
+
+                    ✔ Hallmarked Silver
+
+                </div>
+
+                <div class="feature-card">
+
+                    ✔ Premium Craftsmanship
+
+                </div>
+
+                <div class="feature-card">
+
+                    ✔ Trusted Seller
+
+                </div>
+
+                <div class="feature-card">
+
+                    ✔ Elegant Gift Packaging
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= REVIEWS ================= -->
+
+    <section id="reviews" class="section light-section">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>
+
+                    Customer Trust
+
+                </h2>
+
+            </div>
+
+            <div class="review-grid">
+
+                <div class="review-card">
+
+                    ⭐⭐⭐⭐⭐
+
+                    <p>
+
+                        Excellent quality and genuine silver.
+
+                    </p>
+
+                </div>
+
+                <div class="review-card">
+
+                    ⭐⭐⭐⭐⭐
+
+                    <p>
+
+                        Beautiful gift collection and
+                        friendly service.
+
+                    </p>
+
+                </div>
+
+                <div class="review-card">
+
+                    ⭐⭐⭐⭐⭐
+
+                    <p>
+
+                        Highly recommended for silver articles.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="section">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>
+
+                    Visit Our Store
+
+                </h2>
+
+            </div>
+
+            <div class="contact-box">
+
+                <h3>
+
+                    Ashish Gems
+
+                </h3>
+
+                <p>
+
+                    Ahmedabad, Gujarat
+
+                </p>
+
+                <p>
+
+                    Phone : +91 XXXXX XXXXX
+
+                </p>
+
+                <a href="#">
+
+                    WhatsApp Us
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
 
     <footer>
-        <p>&copy; 2026 My Website. All rights reserved.</p>
-    </footer>
 
-    <!-- JavaScript -->
-    <script src="script.js"></script>
+<div class="container">
+
+<div class="footer-grid">
+
+<div>
+
+<h3>
+
+Ashish Gems
+
+</h3>
+
+<p>
+
+Premium Silver Collection
+
+</p>
+
+</div>
+
+<div>
+
+<h4>
+
+Quick Links
+
+</h4>
+
+<ul>
+
+<li>
+
+<a href="index.html">
+
+Home
+
+</a>
+
+</li>
+
+<li>
+
+<a href="products.html">
+
+Products
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#about">
+
+About
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#contact">
+
+Contact
+
+</a>
+
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+</footer>
+
+    <!-- Floating Buttons -->
+
+    <button id="backToTop" aria-label="Back To Top">
+
+        <svg width="22" height="22" viewBox="0 0 24 24">
+
+        <path fill="currentColor" d="M12 5l7 7-1.4 1.4-4.6-4.6V20h-2V8.8l-4.6 4.6L5 12z"/>
+
+        </svg>
+
+    </button>
+
+    <a id="whatsappButton" href="#">
+
+        <svg
+        width="24"
+        height="24"
+        viewBox="0 0 32 32">
+
+        <path
+        fill="white"
+        d="M19.1 17.2c-.3-.2-1.6-.8-1.8-.9s-.4-.2-.6.2-.7.9-.8 1.1-.3.2-.6.1c-.3-.2-1.2-.5-2.3-1.5-.8-.7-1.4-1.6-1.5-1.9-.2-.3 0-.5.1-.7.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.6s-.6-1.5-.8-2-.4-.5-.6-.5h-.5c-.2 0-.6.1-.8.3-.3.3-1 1-1 2.4s1 2.8 1.1 3c.1.2 2 3.1 4.9 4.3s2.9.8 3.4.8c.5-.1 1.6-.7 1.8-1.4.2-.7.2-1.3.2-1.4-.1-.1-.3-.2-.6-.4z"/>
+
+        </svg>
+
+    </a>
+
+    <script type="module" src="assets/js/app.js"></script>
 
 </body>
+
 </html>
