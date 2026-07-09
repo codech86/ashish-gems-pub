@@ -31,6 +31,12 @@ gap:40px;
 
 }
 
+.product-grid{
+
+grid-template-columns:repeat(3,1fr);
+
+}
+
 }
 
 /* Tablet */
@@ -76,6 +82,18 @@ grid-template-columns:1fr;
 .review-grid{
 
 grid-template-columns:1fr;
+
+}
+
+.filter-bar{
+
+grid-template-columns:1fr;
+
+}
+
+.product-grid{
+
+grid-template-columns:repeat(2,1fr);
 
 }
 
