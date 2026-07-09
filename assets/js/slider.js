@@ -4,9 +4,9 @@ const slides=[
 
 'images/hero/banner1.png',
 
-'images/hero/banner2.jpg',
+'images/hero/banner2.png',
 
-'images/hero/banner3.jpg'
+'images/hero/banner3.png'
 
 ];
 
