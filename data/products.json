@@ -6,9 +6,12 @@
     "category": "Idols",
     "purity": "999",
     "weight": 100,
-    "featured": true,
     "availability": "In Stock",
-    "image": ["images/products/ganesh.jpg"]
+    "featured": true,
+    "description": "Handcrafted pure silver Ganesh idol suitable for home temple and gifting.",
+    "images": [
+      "images/products/ganesh-1.jpg"
+    ]
   },
   {
     "id": 2,
@@ -16,119 +19,152 @@
     "name": "Silver Lakshmi Idol",
     "category": "Idols",
     "purity": "999",
-    "weight": 75,
-    "featured": false,
+    "weight": 120,
     "availability": "In Stock",
-    "image": ["images/products/lakshmi.jpg"]
+    "featured": true,
+    "description": "Beautiful silver Lakshmi idol for pooja and festive occasions.",
+    "images": [
+      "images/products/lakshmi-1.jpg"
+    ]
   },
   {
     "id": 3,
     "sku": "AG1003",
-    "name": "999 Silver Coin",
-    "category": "Coins",
+    "name": "Silver Saraswati Idol",
+    "category": "Idols",
     "purity": "999",
-    "weight": 20,
-    "featured": true,
+    "weight": 150,
     "availability": "In Stock",
-    "image": ["images/products/coin20.jpg"]
+    "featured": false,
+    "description": "Elegant handcrafted Saraswati idol in pure silver.",
+    "images": [
+      "images/products/saraswati-1.jpg"
+    ]
   },
   {
     "id": 4,
-    "sku": "AG1004",
-    "name": "Silver Bowl",
-    "category": "Utensils",
-    "purity": "925",
-    "weight": 150,
-    "featured": false,
+    "sku": "AG2001",
+    "name": "999 Silver Coin - Ganesh",
+    "category": "Coins",
+    "purity": "999",
+    "weight": 10,
     "availability": "In Stock",
-    "image": ["images/products/bowl.jpg"]
+    "featured": true,
+    "description": "Pure silver Ganesh coin ideal for gifting and festivals.",
+    "images": [
+      "images/products/coin-ganesh.jpg"
+    ]
   },
   {
     "id": 5,
-    "sku": "AG1005",
+    "sku": "AG2002",
+    "name": "999 Silver Coin - Lakshmi",
+    "category": "Coins",
+    "purity": "999",
+    "weight": 20,
+    "availability": "In Stock",
+    "featured": false,
+    "description": "Lakshmi silver coin with premium finish.",
+    "images": [
+      "images/products/coin-lakshmi.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "sku": "AG2003",
+    "name": "999 Silver Coin - Om",
+    "category": "Coins",
+    "purity": "999",
+    "weight": 50,
+    "availability": "In Stock",
+    "featured": false,
+    "description": "Premium Om engraved silver coin.",
+    "images": [
+      "images/products/coin-om.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "sku": "AG3001",
+    "name": "Silver Diya",
+    "category": "Pooja",
+    "purity": "925",
+    "weight": 45,
+    "availability": "In Stock",
+    "featured": true,
+    "description": "Traditional silver diya for daily worship.",
+    "images": [
+      "images/products/diya.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "sku": "AG3002",
     "name": "Silver Pooja Thali",
     "category": "Pooja",
     "purity": "925",
     "weight": 250,
-    "featured": true,
     "availability": "In Stock",
-    "image": ["images/products/thali.jpg"]
+    "featured": true,
+    "description": "Decorative silver pooja thali.",
+    "images": [
+      "images/products/thali.jpg"
+    ]
   },
   {
-    "id": 6,
-    "sku": "AG1006",
+    "id": 9,
+    "sku": "AG3003",
+    "name": "Silver Bell",
+    "category": "Pooja",
+    "purity": "925",
+    "weight": 60,
+    "availability": "In Stock",
+    "featured": false,
+    "description": "Temple bell crafted from pure silver.",
+    "images": [
+      "images/products/bell.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "sku": "AG4001",
+    "name": "Silver Bowl",
+    "category": "Utensils",
+    "purity": "925",
+    "weight": 90,
+    "availability": "In Stock",
+    "featured": false,
+    "description": "Elegant silver bowl suitable for gifting.",
+    "images": [
+      "images/products/bowl.jpg"
+    ]
+  },
+  {
+    "id": 11,
+    "sku": "AG4002",
     "name": "Silver Glass",
     "category": "Utensils",
     "purity": "925",
     "weight": 180,
+    "availability": "In Stock",
     "featured": false,
-    "availability": "In Stock",
-    "image": ["images/products/glass.jpg"]
-  },
-  {
-    "id": 7,
-    "sku": "AG1007",
-    "name": "Silver Peacock",
-    "category": "Gift Articles",
-    "purity": "999",
-    "weight": 120,
-    "featured": true,
-    "availability": "In Stock",
-    "image": ["images/products/peacock.jpg"]
-  },
-  {
-    "id": 8,
-    "sku": "AG1008",
-    "name": "Silver Diya",
-    "category": "Pooja",
-    "purity": "925",
-    "weight": 40,
-    "featured": false,
-    "availability": "In Stock",
-    "image": ["images/products/diya.jpg"]
-  },
-  {
-    "id": 9,
-    "sku": "AG1009",
-    "name": "Silver Krishna Idol",
-    "category": "Idols",
-    "purity": "999",
-    "weight": 140,
-    "featured": true,
-    "availability": "In Stock",
-    "image": ["images/products/krishna.jpg"]
-  },
-  {
-    "id": 10,
-    "sku": "AG1010",
-    "name": "Silver Gift Box",
-    "category": "Gift Articles",
-    "purity": "925",
-    "weight": 90,
-    "featured": false,
-    "availability": "In Stock",
-    "image": ["images/products/giftbox.jpg"]
-  },
-  {
-    "id": 11,
-    "sku": "AG1011",
-    "name": "Silver Hanuman Idol",
-    "category": "Idols",
-    "purity": "999",
-    "weight": 85,
-    "featured": false,
-    "availability": "In Stock",
-    "image": ["images/products/hanuman.jpg"]
+    "description": "Premium handcrafted silver drinking glass.",
+    "images": [
+      "images/products/glass.jpg"
+    ]
   },
   {
     "id": 12,
-    "sku": "AG1012",
-    "name": "Silver Coin Gift Pack",
-    "category": "Coins",
-    "purity": "999",
-    "weight": 50,
-    "featured": true,
+    "sku": "AG5001",
+    "name": "Silver Baby Gift Set",
+    "category": "Gift Articles",
+    "purity": "925",
+    "weight": 220,
     "availability": "In Stock",
-    "image": ["images/products/coin-pack.jpg"]
+    "featured": true,
+    "description": "Premium silver baby gift set.",
+    "images": [
+      "images/products/baby-set.jpg"
+    ]
   }
 ]

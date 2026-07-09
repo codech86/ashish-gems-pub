@@ -3,256 +3,306 @@
 
 <head>
 
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
 
-<meta name="viewport"
-content="width=device-width, initial-scale=1.0">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
 
-<title>Products | Ashish Gems</title>
+    <title>
+        Products | Ashish Gems
+    </title>
 
-<link rel="preconnect"
-href="https://fonts.googleapis.com">
+    <meta
+        name="description"
+        content="Browse premium silver products from Ashish Gems.">
 
-<link rel="preconnect"
-href="https://fonts.gstatic.com"
-crossorigin>
+    <link
+        rel="stylesheet"
+        href="assets/css/style.css">
 
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap"
-rel="stylesheet">
-
-<link rel="stylesheet"
-href="assets/css/variables.css">
-
-<link rel="stylesheet"
-href="assets/css/style.css">
-
-<link rel="stylesheet"
-href="assets/css/responsive.css">
-
-<link rel="stylesheet"
-href="assets/css/animations.css">
+    <link
+        rel="stylesheet"
+        href="assets/css/responsive.css">
 
 </head>
 
 <body>
 
-<header class="header">
+    <!-- ===========================
+         HEADER
+    ============================ -->
 
-<nav class="navbar container">
+    <header class="header">
 
-    <a href="index.html" class="logo">
+        <div class="container">
 
-        Ashish<span>Gems</span>
+            <nav class="navbar">
 
-    </a>
+                <a
+                    href="index.html"
+                    class="logo">
 
-    <button class="mobile-menu-btn"
-            aria-label="Toggle Menu">
+                    Ashish <span>Gems</span>
 
-        ☰
+                </a>
 
-    </button>
+                <ul class="nav-menu">
 
-    <ul class="nav-menu">
+                    <li>
+                        <a href="index.html">
+                            Home
+                        </a>
+                    </li>
 
-        <li>
+                    <li>
+                        <a
+                            href="products.html"
+                            class="active">
+                            Products
+                        </a>
+                    </li>
 
-            <a href="index.html">
+                    <li>
+                        <a href="index.html#collections">
+                            Categories
+                        </a>
+                    </li>
 
-                Home
+                    <li>
+                        <a href="index.html#about">
+                            About
+                        </a>
+                    </li>
 
-            </a>
+                    <li>
+                        <a href="index.html#contact">
+                            Contact
+                        </a>
+                    </li>
 
-        </li>
+                </ul>
 
-        <li>
+            </nav>
 
-            <a href="products.html">
+        </div>
 
-                Products
+    </header>
 
-            </a>
+    <!-- ===========================
+         PAGE TITLE
+    ============================ -->
 
-        </li>
+    <section class="page-header">
 
-        <li>
+        <div class="container">
 
-            <a href="index.html#collections">
+            <h1>
 
-                Categories
+                Silver Collection
 
-            </a>
+            </h1>
 
-        </li>
+            <p>
 
-        <li>
+                Browse our handcrafted premium silver products.
 
-            <a href="index.html#about">
+            </p>
 
-                About
+        </div>
 
-            </a>
+    </section>
 
-        </li>
+    <!-- ===========================
+         FILTER BAR
+    ============================ -->
 
-        <li>
+    <section class="filters">
 
-            <a href="index.html#contact">
+        <div class="container">
 
-                Contact
+            <div class="filter-bar">
 
-            </a>
+                <input
+                    id="searchInput"
+                    type="text"
+                    placeholder="Search products...">
 
-        </li>
+                <select id="categoryFilter">
 
-    </ul>
+                    <option value="all">
 
-</nav>
+                        All Categories
 
-</header>
+                    </option>
 
-<section class="page-header">
+                </select>
 
-<div class="container">
+                <select id="sortSelect">
 
-<h1>
+                    <option value="default">
 
-Our Collection
+                        Sort By
 
-</h1>
+                    </option>
 
-<p>
+                    <option value="featured">
 
-Discover premium handcrafted silver products.
+                        Featured
 
-</p>
+                    </option>
 
-</div>
+                    <option value="name">
 
-</section>
+                        Name A-Z
 
-<section class="section">
+                    </option>
 
-<div class="container">
+                    <option value="weight">
 
-<div class="catalog-toolbar">
+                        Weight Low → High
 
-<div class="search-box">
+                    </option>
 
-<input
-type="search"
-id="searchInput"
-placeholder="Search silver products...">
+                    <option value="weight-desc">
 
-</div>
+                        Weight High → Low
 
-<div class="toolbar-right">
+                    </option>
 
-<select id="categoryFilter">
+                </select>
 
-<option value="all">
+            </div>
 
-All Categories
+        </div>
 
-</option>
+    </section>
 
-</select>
+    <!-- ===========================
+         PRODUCTS
+    ============================ -->
 
-<select id="sortSelect">
+    <main class="products-section">
 
-<option value="default">
+        <div class="container">
 
-Newest
+            <div class="products-header">
 
-</option>
+                <h2>
 
-<option value="featured">
+                    Our Collection
 
-Featured First
+                </h2>
 
-</option>
+                <span id="productCount">
 
-<option value="name">
+                    Loading...
 
-Name A-Z
+                </span>
 
-</option>
+            </div>
 
-<option value="weight">
+            <div
+                id="loading"
+                class="loading">
 
-Weight Low → High
+                Loading products...
 
-</option>
+            </div>
 
-<option value="weight-desc">
+            <div
+                id="productGrid"
+                class="product-grid">
 
-Weight High → Low
+            </div>
 
-</option>
+            <div class="load-more-wrapper">
 
-</select>
+                <button
+                    id="loadMoreBtn"
+                    class="btn btn-primary">
 
-</div>
+                    Load More Products
 
-</div>
+                </button>
 
-<div class="product-summary">
+            </div>
 
-<span id="productCount">
+        </div>
 
-0 Products
+    </main>
 
-</span>
+    <!-- ===========================
+         PRODUCT MODAL
+    ============================ -->
 
-</div>
+    <div
+        id="productModal"
+        class="modal">
 
-<div
-id="productGrid"
-class="product-grid">
+        <div class="modal-content">
 
-</div>
+            <button
+                id="closeModal"
+                class="modal-close"
+                aria-label="Close">
 
-<div class="load-more-wrapper">
+                ×
 
-<button
-id="loadMoreBtn"
-class="btn btn-primary">
+            </button>
 
-Load More Products
+            <div id="modalBody">
 
-</button>
+            </div>
 
-</div>
-
-</div>
-
-</section>
-
-<script
-type="module"
-src="assets/js/products.js">
-
-</script>
-<div id="productModal" class="modal">
-
-    <div class="modal-content">
-
-        <button
-            id="closeModal"
-            class="modal-close"
-            aria-label="Close">
-
-            ×
-
-        </button>
-
-        <div id="modalBody">
-            
         </div>
 
     </div>
 
-</div>
+    <!-- ===========================
+         BACK TO TOP
+    ============================ -->
+
+    <button
+        id="backToTop"
+        class="back-to-top"
+        aria-label="Back To Top">
+
+        ↑
+
+    </button>
+
+    <!-- ===========================
+         FOOTER
+    ============================ -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <p>
+
+                © 2026 Ashish Gems.
+                All Rights Reserved.
+
+            </p>
+
+        </div>
+
+    </footer>
+
+    <!-- ===========================
+         JAVASCRIPT
+    ============================ -->
+
+    <script
+        src="assets/js/navigation.js">
+    </script>
+
+    <script
+        src="assets/js/products.js">
+    </script>
+
 </body>
 
 </html>

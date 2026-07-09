@@ -1,39 +1,41 @@
+import { getProduct } from "./store.js";
+
 export function initWhatsapp(){
 
-    document.addEventListener(
+    document.addEventListener("click",event=>{
 
-        "click",
+        const button=
 
-        event=>{
+        event.target.closest(".whatsapp-modal");
 
-            if(
+        if(!button) return;
 
-                !event.target.classList.contains(
+        const product=
 
-                    "whatsapp-btn"
+        getProduct(button.dataset.id);
 
-                )
+        const message=
 
-            ) return;
+`Hello Ashish Gems,
 
-            const name=
+I am interested in
 
-            event.target.dataset.name;
+${product.name}
 
-            const url=
+SKU : ${product.sku}
 
-`https://wa.me/91XXXXXXXXXX?text=Hi%20Ashish%20Gems,%20I%20am%20interested%20in%20${encodeURIComponent(name)}`;
+Weight : ${product.weight} gm
 
-            window.open(
+Please share more details.`;
 
-                url,
+        window.open(
 
-                "_blank"
+`https://wa.me/91XXXXXXXXXX?text=${encodeURIComponent(message)}`,
 
-            );
+"_blank"
 
-        }
+        );
 
-    );
+    });
 
 }

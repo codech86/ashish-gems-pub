@@ -281,3 +281,13 @@ export function restoreState(){
         state.sort=params.get("sort");
 
 }
+
+export function getProduct(id){
+
+    return state.allProducts.find(product=>{
+
+        return product.id===Number(id);
+
+    });
+
+}
