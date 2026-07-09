@@ -48,7 +48,7 @@ function createFeaturedCard(product){
 
             <img
 
-            src="${product.image[0]}"
+            src="${product.images[0]}"
 
             loading="lazy">
 
