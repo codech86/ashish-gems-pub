@@ -66,7 +66,7 @@
     "featured": false,
     "description": "Lakshmi silver coin with premium finish.",
     "images": [
-      "images/products/coin-lakshmi.jpg"
+      "images/products/lakshmi-1.jpg"
     ]
   },
   {
@@ -80,7 +80,7 @@
     "featured": false,
     "description": "Premium Om engraved silver coin.",
     "images": [
-      "images/products/coin-om.jpg"
+      "images/products/saraswati-1.jpg"
     ]
   },
   {
@@ -94,7 +94,7 @@
     "featured": true,
     "description": "Traditional silver diya for daily worship.",
     "images": [
-      "images/products/diya.jpg"
+      "images/products/lakshmi-1.jpg"
     ]
   },
   {
@@ -108,7 +108,7 @@
     "featured": true,
     "description": "Decorative silver pooja thali.",
     "images": [
-      "images/products/thali.jpg"
+      "images/products/saraswati-1.jpg"
     ]
   },
   {
@@ -122,7 +122,7 @@
     "featured": false,
     "description": "Temple bell crafted from pure silver.",
     "images": [
-      "images/products/bell.jpg"
+      "images/products/ganesh-1.jpg"
     ]
   },
   {
@@ -136,7 +136,7 @@
     "featured": false,
     "description": "Elegant silver bowl suitable for gifting.",
     "images": [
-      "images/products/bowl.jpg"
+      "images/products/saraswati-1.jpg"
     ]
   },
   {
@@ -150,7 +150,7 @@
     "featured": false,
     "description": "Premium handcrafted silver drinking glass.",
     "images": [
-      "images/products/glass.jpg"
+      "images/products/coin-ganesh.jpg"
     ]
   },
   {
@@ -164,7 +164,7 @@
     "featured": true,
     "description": "Premium silver baby gift set.",
     "images": [
-      "images/products/baby-set.jpg"
+      "images/products/ganesh-1.jpg"
     ]
   }
 ]
